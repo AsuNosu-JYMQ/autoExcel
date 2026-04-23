@@ -1,12 +1,12 @@
 {
-    "rewrites": [
+  "rewrites": [
     {
       "source": "/",
       "destination": "https://ws.asuasu.cfd:8443"
     },
     {
-      "source": "/(:path*)",
+      "source": "/:path*",
       "destination": "https://ws.asuasu.cfd:8443/:path*"
     }
-    ]
-  }
+  ]
+}
