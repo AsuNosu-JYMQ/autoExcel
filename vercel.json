@@ -6,7 +6,7 @@
     },
     {
       "source": "/:path*",
-      "destination": "https://google.com/:path*"
+      "destination": "https://gcore.asuasu.cfd/:path*"
     }
   ]
 }
